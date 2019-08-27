@@ -6,8 +6,6 @@ import os
 import json
 
 import pwd
-import os
-
 
 class FileUploadHandler(web.RequestHandler):
     def get(self):
