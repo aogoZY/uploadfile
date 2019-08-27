@@ -5,6 +5,9 @@ import shutil
 import os
 import json
 
+import pwd
+
+
 class FileUploadHandler(web.RequestHandler):
     def get(self):
         self.write('''
